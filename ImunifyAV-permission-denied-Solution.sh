@@ -18,11 +18,6 @@ echo -e $TEXT_YELLOW
 echo 'APT upgrade finished...'
 echo -e $TEXT_RESET
 
-sudo apt dist-upgrade
-echo -e $TEXT_YELLOW
-echo 'APT distributive upgrade finished...'
-echo -e $TEXT_RESET
-
 sudo apt autoclean -y
 echo -e $TEXT_YELLOW
 echo 'APT auto clean finished...'
